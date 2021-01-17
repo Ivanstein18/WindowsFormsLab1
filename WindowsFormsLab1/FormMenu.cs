@@ -52,8 +52,18 @@ namespace WindowsFormsLab1
         private void startLevel1()
         {
             FormLevel1 level1 = new FormLevel1();
-            level1.ShowDialog();
+            DialogResult dr = level1.ShowDialog();
+            //if (dr == DialogResult.OK)
+            //    startLevel2();
 
         }
+        //private void startLevel2()
+        //{
+        //    FormLevel2 level2 = new FormLevel2();
+        //    DialogResult dr = level2.ShowDialog();
+        //    if (dr == DialogResult.OK)
+               
+
+        //}
     }
 }

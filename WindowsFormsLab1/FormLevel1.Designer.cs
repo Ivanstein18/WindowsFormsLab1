@@ -70,6 +70,7 @@ namespace WindowsFormsLab1
             this.label1.Size = new System.Drawing.Size(10, 503);
             this.label1.TabIndex = 2;
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.MouseEnter += new System.EventHandler(this.FormLevel1_MouseEnter);
             // 
             // label2
             // 
@@ -80,6 +81,7 @@ namespace WindowsFormsLab1
             this.label2.Size = new System.Drawing.Size(10, 503);
             this.label2.TabIndex = 3;
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label2.MouseEnter += new System.EventHandler(this.FormLevel1_MouseEnter);
             // 
             // label3
             // 
@@ -90,6 +92,7 @@ namespace WindowsFormsLab1
             this.label3.Size = new System.Drawing.Size(785, 10);
             this.label3.TabIndex = 4;
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label3.MouseEnter += new System.EventHandler(this.FormLevel1_MouseEnter);
             // 
             // label4
             // 
@@ -100,6 +103,7 @@ namespace WindowsFormsLab1
             this.label4.Size = new System.Drawing.Size(785, 10);
             this.label4.TabIndex = 5;
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label4.MouseEnter += new System.EventHandler(this.FormLevel1_MouseEnter);
             // 
             // label5
             // 
@@ -110,6 +114,7 @@ namespace WindowsFormsLab1
             this.label5.Size = new System.Drawing.Size(56, 239);
             this.label5.TabIndex = 6;
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label5.MouseEnter += new System.EventHandler(this.FormLevel1_MouseEnter);
             // 
             // FormLevel1
             // 
